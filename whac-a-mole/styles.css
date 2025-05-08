@@ -1,0 +1,62 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h2 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  #score, #time-left {
+    font-size: 30px;
+    color: #444;
+    margin: 10px 0;
+  }
+  
+  button {
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  button:hover {
+    background-color: #ff4500;
+  }
+  
+  .grid {
+    width: 540px; 
+    height: 540px; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 30px auto;
+  }
+  
+  .square {
+    height: 160px; 
+    width: 160px; 
+    border: solid 2px #ccc;
+    position: relative;
+    background-color: #eaeaea;
+    margin: 2px; 
+  }
+  
+  .mole {
+    background-image: url("mole.jpg");
+    background-size: cover;
+    border-radius: 50%;
+  }
+  
+  .square:hover {
+    background-color: #f4f4f4;
+  }
+  
